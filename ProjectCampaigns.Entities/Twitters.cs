@@ -1,4 +1,4 @@
-﻿using Campaigns.Dal;
+using Campaigns.Dal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +13,7 @@ using System.Net.Http;
 using Newtonsoft.Json.Linq;
 using System.Configuration;
 using Utilitis;
+using System.Threading;
 
 namespace Campaigns.Entities
 {
@@ -45,8 +46,8 @@ namespace Campaigns.Entities
 
         public void amountOftweets()
         {
-
-            log.LogEvent("amountOftweets function called", DateTime.Now);
+            while (true)
+                log.LogEvent("amountOftweets function called", DateTime.Now);
             List<Twitter> userData = ReadTwitterFromDb();
 
             foreach (Twitter user in userData)
@@ -104,6 +105,7 @@ namespace Campaigns.Entities
                             }
                         }
                     }
+                    
                 }
                 catch (HttpRequestException ex)
                 {
@@ -126,6 +128,7 @@ namespace Campaigns.Entities
                     throw;
                 }
             }
+            Thread.Sleep(60 * 60 * 1000);
         }
 
 
