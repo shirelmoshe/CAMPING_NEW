@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\Camping\Campaigns.Model\bin\Debug\Campaigns.Model.dll
+C:\Users\User\source\repos\Camping\Campaigns.Model\bin\Debug\Campaigns.Model.pdb
+C:\Users\User\source\repos\Camping\Campaigns.Model\obj\Debug\Campaigns.Model.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Camping\Campaigns.Model\obj\Debug\Campaigns.Model.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Camping\Campaigns.Model\obj\Debug\Campaigns.Model.dll
+C:\Users\User\source\repos\Camping\Campaigns.Model\obj\Debug\Campaigns.Model.pdb

@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\Camping\Campaigns.Dal\obj\Debug\Campaigns.Dal.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Camping\Campaigns.Dal\obj\Debug\Campaigns.Dal.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Camping\Campaigns.Dal\bin\Debug\Campaigns.Dal.dll
+C:\Users\User\source\repos\Camping\Campaigns.Dal\bin\Debug\Campaigns.Dal.pdb
+C:\Users\User\source\repos\Camping\Campaigns.Dal\bin\Debug\Campaigns.Model.dll
+C:\Users\User\source\repos\Camping\Campaigns.Dal\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\User\source\repos\Camping\Campaigns.Dal\bin\Debug\System.Security.AccessControl.dll
+C:\Users\User\source\repos\Camping\Campaigns.Dal\bin\Debug\System.Security.Permissions.dll
+C:\Users\User\source\repos\Camping\Campaigns.Dal\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\User\source\repos\Camping\Campaigns.Dal\bin\Debug\Campaigns.Model.pdb
+C:\Users\User\source\repos\Camping\Campaigns.Dal\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\User\source\repos\Camping\Campaigns.Dal\bin\Debug\System.Security.AccessControl.xml
+C:\Users\User\source\repos\Camping\Campaigns.Dal\bin\Debug\System.Security.Permissions.xml
+C:\Users\User\source\repos\Camping\Campaigns.Dal\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\User\source\repos\Camping\Campaigns.Dal\obj\Debug\Campaigns.Dal.csproj.CopyComplete
+C:\Users\User\source\repos\Camping\Campaigns.Dal\obj\Debug\Campaigns.Dal.dll
+C:\Users\User\source\repos\Camping\Campaigns.Dal\obj\Debug\Campaigns.Dal.pdb
