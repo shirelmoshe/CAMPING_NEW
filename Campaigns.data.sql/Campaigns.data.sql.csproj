@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9A6F4942-78C8-4B1C-AB37-E96117CCB9DC}</ProjectGuid>
+    <ProjectGuid>{1783EE9E-8494-4085-A204-7E8C7DD7D891}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Campaigns.data.sql</RootNamespace>
@@ -32,7 +32,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.5, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\Camping\packages\System.Data.SqlClient.4.8.5\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,19 +45,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasePromotionSql.cs" />
+    <Compile Include="BaseSql.cs" />
     <Compile Include="CampaingSql.cs" />
-    <Compile Include="Base.cs" />
+    <Compile Include="DonationSql.cs" />
+    <Compile Include="moneyTrackingSql.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaleSql.cs" />
+    <Compile Include="UpdateACamping.cs" />
+    <Compile Include="UserSql.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Campaigns.Dal\Campaigns.Dal.csproj">
+    <ProjectReference Include="..\Camping\Campaigns.Dal\Campaigns.Dal.csproj">
       <Project>{b0371738-632c-40fd-b7ef-b8ca83c87cd3}</Project>
       <Name>Campaigns.Dal</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Campaigns.Model\Campaigns.Model.csproj">
+    <ProjectReference Include="..\Camping\Campaigns.Model\Campaigns.Model.csproj">
       <Project>{d94ad575-a61c-4765-9ab4-b6808de5559f}</Project>
       <Name>Campaigns.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Logger\Logger\Logger.csproj">
+      <Project>{cfc0787a-4fe4-4cee-b42d-5098b602a424}</Project>
+      <Name>Logger</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
