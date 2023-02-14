@@ -1,0 +1,81 @@
+.Update {
+  width: 75px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: rgb(20, 3, 3);
+  cursor: pointer;
+  margin: 20px;
+  height: 35px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.Update:hover {
+  background-position: 100% 0;
+
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.Update:focus {
+  outline: none;
+}
+
+.Update.bn27 {
+  background-image: linear-gradient(
+    to right,
+    #ed6ea0,
+    #ec8c69,
+    #f7186a,
+    #fbb03b
+  );
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+.delete {
+  width: 75px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: rgb(15, 2, 2);
+  cursor: pointer;
+  margin: 20px;
+  height: 35px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.delete:hover {
+  background-position: 100% 0;
+
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.delete:focus {
+  outline: none;
+}
+
+.delete.bn27 {
+  background-image: linear-gradient(
+    to right,
+    #703d51,
+    #bb8774,
+    #951717,
+    #fbb03b
+  );
+  box-shadow: 0 4px 15px 0 rgba(216, 157, 173, 0.75);
+}

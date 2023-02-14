@@ -1,0 +1,8 @@
+input {
+  border-radius: 20px;
+  width: 250px;
+  height: 30px;
+  direction: initial;
+  display: flex;
+  flex-wrap: wrap;
+}
